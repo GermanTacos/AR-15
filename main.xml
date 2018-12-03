@@ -27,7 +27,7 @@
 			</AMMO_PICKUP>
 			<timers reload_not_empty="2.3" reload_empty="3.4" unequip="0.5" equip="0.7"/>
 			<sounds fire="ar15_fire_single" fire_single="ar15_fire_single" fire_auto="ar15_fire_single" use_fix="true"> 
-				<reload wp_m16_clip_grab_out="wp_stoy_556_clip_grab_out" wp_m16_clip_slide_in="wp_stoy_556_clip_slide_in" wp_m16_lever_pull_in="wp_stoy_556_lever_pull_in" wp_m16_lever_release="wp_stoy_556_lever_release"/>
+				<reload wp_tti_mag_in="wp_stoy_556_mag_in" wp_tti_mag_out="wp_stoy_556_mag_out" wp_tti_pull_lever="wp_stoy_556_pull_bolt" wp_tti_release_lever="wp_stoy_556_release_bolt" wp_tti_mag_contact="wp_stoy_556_mag_contact" wp_foley_generic_clip_in_connect="wp_stoy_556_mag_connect"/>
 			</sounds>
 			<animations reload_name_id="flint" equip_id="equip_flint" recoil_steelsight="true"/>
 		</weapon>
@@ -111,14 +111,18 @@
 		<sound id="ar15_fire_single" path="ar15_fire_single.ogg" prefix="suppressed_a"/>
 		<sound id="ar15_fire_single" path="ar15_fire_single.ogg" prefix="suppressed_b"/>
 		<sound id="ar15_fire_single" path="ar15_fire_single.ogg" prefix="suppressed_c"/>
-		<sound id="wp_stoy_556_clip_grab_out" path="wp_stoy_556_clip_grab_out.ogg" prefix="first"/>
-		<sound id="wp_stoy_556_clip_grab_out" path="wp_stoy_556_clip_grab_out.ogg" prefix="third"/>
-		<sound id="wp_stoy_556_clip_slide_in" path="wp_stoy_556_clip_slide_in.ogg" prefix="first"/>
-		<sound id="wp_stoy_556_clip_slide_in" path="wp_stoy_556_clip_slide_in.ogg" prefix="third"/>
-		<sound id="wp_stoy_556_lever_pull_in" path="wp_stoy_556_lever_pull_in.ogg" prefix="first"/>
-		<sound id="wp_stoy_556_lever_pull_in" path="wp_stoy_556_lever_pull_in.ogg" prefix="third"/>
-		<sound id="wp_stoy_556_lever_release" path="wp_stoy_556_lever_release.ogg" prefix="first"/>
-		<sound id="wp_stoy_556_lever_release" path="wp_stoy_556_lever_release.ogg" prefix="third"/> 
+		<sound id="wp_stoy_556_mag_out" 	 path="wp_stoy_556_mag_out.ogg" prefix="first"/>
+		<sound id="wp_stoy_556_mag_out" 	 path="wp_stoy_556_mag_out.ogg" prefix="third"/>
+		<sound id="wp_stoy_556_mag_in" 		 path="wp_stoy_556_mag_in.ogg" prefix="first"/>
+		<sound id="wp_stoy_556_mag_in" 		 path="wp_stoy_556_mag_in.ogg" prefix="third"/>
+		<sound id="wp_stoy_556_pull_bolt" 	 path="wp_stoy_556_pull_bolt.ogg" prefix="first"/>
+		<sound id="wp_stoy_556_pull_bolt" 	 path="wp_stoy_556_pull_bolt.ogg" prefix="third"/>
+		<sound id="wp_stoy_556_release_bolt" path="wp_stoy_556_release_bolt.ogg" prefix="first"/>
+		<sound id="wp_stoy_556_release_bolt" path="wp_stoy_556_release_bolt.ogg" prefix="third"/> 
+		<sound id="wp_stoy_556_mag_contact"  path="ar15_mag_tap.ogg" prefix="first"/>
+		<sound id="wp_stoy_556_mag_contact"  path="ar15_mag_tap.ogg" prefix="third"/> 
+		<sound id="wp_stoy_556_mag_connect"  path="ar15_mag_connect.ogg" prefix="first"/>
+		<sound id="wp_stoy_556_mag_connect"  path="ar15_mag_connect.ogg" prefix="third"/> 
 	</Sounds>
 	
 	<AddFiles directory="assets">
