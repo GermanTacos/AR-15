@@ -1,1 +1,2 @@
 - [ ] Test what sound event corresponds to which animation  
+- [ ] Add the dummy barrel
