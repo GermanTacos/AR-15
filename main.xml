@@ -187,8 +187,11 @@
 		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_ba_dummy"/>
 		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_ba_dummy"/>
 		
-		<!-- AK-9 PTS -->
+		<!-- AR-15 PTS -->
 	
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_m16_pts/wpn_fps_ass_stoy_556_m16_body"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_m16_pts/wpn_fps_ass_stoy_556_m16_furniture"/>
+		
 		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_m16_pts/m16_body_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_m16_pts/m16_body_nm"/>
 		
