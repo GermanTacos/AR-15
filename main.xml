@@ -314,6 +314,13 @@
 		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_m16_pts/wpn_fps_ass_stoy_556_ch_m16"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_m16_pts/wpn_fps_ass_stoy_556_ch_m16_thq"/>
 		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556/wpn_fps_ass_stoy_556"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556/wpn_fps_ass_stoy_556"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556/wpn_fps_ass_stoy_556"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556/wpn_fps_ass_stoy_556"/>
+		
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556/wpn_fps_ass_stoy_556_npc"/>
+		
 	</AddFiles>
 	
 	<Hooks directory="hooks">
