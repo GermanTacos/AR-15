@@ -76,7 +76,6 @@
 		<weapon id="stoy_556" based_on="tti" weapon_hold="flint" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="4" damage_near="40000" damage_far="42400" can_shoot_through_shield="false" can_shoot_through_enemy="false" can_shoot_through_wall="false" tactical_reload="1" texture_bundle_folder="mods" global_value="stoy_556">
 			<stats damage="75" spread="17" spread_moving="17" recoil="12" concealment="25" alert_size="10" suppression="14"/>
 			<fire_mode_data fire_rate="0.08"/>
-			<use_data selection_index="1"/>
 			<AMMO_PICKUP>
 					<value_node value="1.25"/>
 					<value_node value="4.25"/>
