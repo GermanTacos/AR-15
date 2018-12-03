@@ -80,6 +80,9 @@
 					<value_node value="1.25"/>
 					<value_node value="4.25"/>
 			</AMMO_PICKUP>
+			<categories>
+				<value_node value="ass"/>
+			</categories>
 			<timers reload_not_empty="2.3" reload_empty="3.4" unequip="0.5" equip="0.7"/>
 			<sounds fire="ar15_fire_single" fire_single="ar15_fire_single" fire_auto="ar15_fire_single" use_fix="true"> 
 				<reload wp_tti_mag_in="wp_stoy_556_mag_in" wp_tti_mag_out="wp_stoy_556_mag_out" wp_tti_pull_lever="wp_stoy_556_pull_bolt" wp_tti_release_lever="wp_stoy_556_release_bolt" wp_tti_mag_contact="wp_stoy_556_mag_contact" wp_foley_generic_clip_in_connect="wp_stoy_556_mag_connect"/>
