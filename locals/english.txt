@@ -1,0 +1,63 @@
+{
+	"bm_w_heffy_939" : "AK-9",
+	"bm_w_heffy_939_desc" : "Designed in the mid 2000s, the AK-9 was intended to be a silent, flame-less entry into the Kalashnikov series of rifles. Its usage and production are limited, and the weapon is currently being redesigned, as it has not been officially adopted.",
+	
+	"bm_w_x_heffy_939" : "Akimbo AK-9",
+	"bm_w_x_heffy_939_desc" : "Akimbo version of the AK-9",
+	
+	"menu_l_global_value_heffy_939" : "This is an AK Pack Weapon!",
+	
+	"bm_menu_barrel2"        : "Barrel",
+	"bm_menu_barrel2_plural" : "Barrels",
+	"bm_menu_scopemount"        : "Scope Mount",
+	"bm_menu_scopemount_plural" : "Scope Mounts",
+	"bm_menu_dreceiver"        : "Receiver",
+	"bm_menu_dreceiver_plural" : "Receivers",
+	"bm_menu_dust_cover"        : "Dust Cover",
+	"bm_menu_dust_cover_plural" : "Dust Covers",
+	"bm_menu_foregrip_lower"        : "Lower Handguard",
+	"bm_menu_foregrip_lower_plural" : "Lower Handguards",
+	"bm_menu_foregrip_upper"        : "Upper Handguard",
+	"bm_menu_foregrip_upper_plural" : "Upper Handguards",
+	"bm_menu_rear_sight"        : "Iron Sight",
+	"bm_menu_rear_sight_plural" : "Iron Sights",
+	"bm_menu_stock_pad"        : "Stock Pad",
+	"bm_menu_stock_pad_plural" : "Stock Pads",
+	"bm_menu_underbarrel_sight"        : "Underbarrel Sight",
+	"bm_menu_underbarrel_sight_plural" : "Underbarrel Sights",
+	"bm_menu_sound"        : "Sound",
+	"bm_menu_sound_plural" : "Sounds",
+	"bm_menu_custom"        : "Custom",
+	"bm_menu_custom_plural" : "Customs",
+	"bm_menu_mag_color"        : "Magazine Color",
+	"bm_menu_mag_color_plural" : "Magazine Colors",
+	"bm_menu_magwell"        : "Magwell",
+	"bm_menu_magwell_plural" : "Magwells",
+	
+	"bm_wp_wpn_fps_ass_heffy_939_ba_ak9"    : "AK-9 Barrel",
+	"bm_wp_wpn_fps_ass_heffy_939_fh_ak9"    : "AK-9 Muzzle Brake",
+	"bm_wp_wpn_fps_ass_heffy_939_ch_ak9"    : "AK-9 Bolt",
+	"bm_wp_wpn_fps_ass_heffy_939_ufg_ak9"   : "AK-9 Upper Handguard",
+	"bm_wp_wpn_fps_ass_heffy_939_lfg_ak9"   : "AK-9 Lower Handguard",
+	"bm_wp_wpn_fps_ass_heffy_939_st_ak9"    : "AK-9 Stock",
+	"bm_wp_wpn_fps_ass_heffy_939_pg_ak9"    : "AK-9 Grip",
+	"bm_wp_wpn_fps_ass_heffy_939_lr_ak9"    : "AK-9 Receiver",
+	"bm_wp_wpn_fps_ass_heffy_939_ur_ak9"    : "AK-9 Dust Cover",
+	
+	"bm_wp_wpn_fps_ass_heffy_939_ba_tiss"   : "OTs-12 Tiss Barrel",
+	"bm_wp_wpn_fps_ass_heffy_939_pg_tiss"   : "OTs-12 Tiss Grip",
+	"bm_wp_wpn_fps_ass_heffy_939_fh_tiss"   : "OTs-12 Muzzle Brake",
+	"bm_wp_wpn_fps_ass_heffy_939_st_tiss"   : "OTs-12 Tiss Stock",
+	"bm_wp_wpn_fps_ass_heffy_939_lfg_tiss"  : "OTs-12 Lower Handguards",
+	"bm_wp_wpn_fps_ass_heffy_939_ufg_tiss"  : "OTs-12 Upper Handguard",
+	"bm_wp_wpn_fps_ass_heffy_939_ro_tiss"   : "OTs-12 Rear Sight",
+	"bm_wp_wpn_fps_ass_heffy_939_lr_tiss"   : "OTs-12 Receiver",
+	"bm_wp_wpn_fps_ass_heffy_939_ur_tiss"   : "OTs-12 Dust Cover",
+	
+	"bm_wp_wpn_fps_ass_heffy_939_so_pr"   	: "Project Reality Sounds",
+	
+	"bm_wp_wpn_fps_ass_heffy_939_m_tiss_20" : "Tiss Magazine",
+	
+	"bm_wp_wpn_fps_upg_o_ak9_l_scopemount"  : "Lower Scope Mount"
+
+}
