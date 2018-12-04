@@ -77,8 +77,8 @@
     </WeaponMod>
 	
 	<Weapon unlock_level="0">
-		<weapon id="stoy_556" based_on="tti" weapon_hold="flint" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="4" FIRE_MODE="auto" CAN_TOGGLE_FIREMODE="true" damage_near="40000" damage_far="42400" can_shoot_through_shield="false" can_shoot_through_enemy="false" can_shoot_through_wall="false" tactical_reload="1" texture_bundle_folder="mods" global_value="stoy_556">
-			<stats damage="75" spread="17" spread_moving="17" recoil="12" concealment="25" alert_size="10" suppression="14"/>
+		<weapon id="stoy_556" based_on="tti" weapon_hold="flint" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="6" FIRE_MODE="auto" CAN_TOGGLE_FIREMODE="true" damage_near="40000" damage_far="42400" can_shoot_through_shield="false" can_shoot_through_enemy="false" can_shoot_through_wall="false" tactical_reload="1" texture_bundle_folder="mods" global_value="stoy_556">
+			<stats damage="75" spread="15" spread_moving="15" recoil="18" concealment="18" alert_size="10" suppression="14"/>
 			<fire_mode_data fire_rate="0.08"/>
 			<AMMO_PICKUP>
 					<value_node value="1.25"/>
