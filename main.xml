@@ -177,10 +177,10 @@
 		<sound id="wp_stoy_556_pull_bolt" 	 path="wp_stoy_556_pull_bolt.ogg" prefix="third"/>
 		<sound id="wp_stoy_556_release_bolt" path="wp_stoy_556_release_bolt.ogg" prefix="first"/>
 		<sound id="wp_stoy_556_release_bolt" path="wp_stoy_556_release_bolt.ogg" prefix="third"/> 
-		<sound id="wp_stoy_556_mag_contact"  path="ar15_mag_tap.ogg" prefix="first"/>
-		<sound id="wp_stoy_556_mag_contact"  path="ar15_mag_tap.ogg" prefix="third"/> 
-		<sound id="wp_stoy_556_mag_connect"  path="ar15_mag_connect.ogg" prefix="first"/>
-		<sound id="wp_stoy_556_mag_connect"  path="ar15_mag_connect.ogg" prefix="third"/> 
+		<sound id="wp_stoy_556_mag_contact"  path="wp_stoy_556_mag_contact.ogg" prefix="first"/>
+		<sound id="wp_stoy_556_mag_contact"  path="wp_stoy_556_mag_contact.ogg" prefix="third"/> 
+		<sound id="wp_stoy_556_mag_connect"  path="wp_stoy_556_mag_connect.ogg" prefix="first"/>
+		<sound id="wp_stoy_556_mag_connect"  path="wp_stoy_556_mag_connect.ogg" prefix="third"/> 
 	</Sounds>
 	
 	<AddFiles directory="assets">
