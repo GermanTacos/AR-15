@@ -78,7 +78,7 @@
 	
 	<Weapon unlock_level="0">
 		<weapon id="stoy_556" based_on="tti" weapon_hold="flint" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="6" FIRE_MODE="auto" CAN_TOGGLE_FIREMODE="true" damage_near="40000" damage_far="42400" can_shoot_through_shield="false" can_shoot_through_enemy="false" can_shoot_through_wall="false" tactical_reload="1" texture_bundle_folder="mods" global_value="stoy_556">
-			<stats damage="75" spread="15" spread_moving="15" recoil="18" concealment="18" alert_size="10" suppression="14"/>
+			<stats damage="75" spread="26" spread_moving="15" recoil="18" concealment="18" suppression="14"/>
 			<fire_mode_data fire_rate="0.08"/>
 			<AMMO_PICKUP>
 					<value_node value="1.25"/>
@@ -88,7 +88,7 @@
 				<value_node value="assault_rifle"/>
 			</categories>
 			<timers reload_not_empty="2.3" reload_empty="3.4" unequip="0.5" equip="0.7"/>
-			<sounds fire="ar15_fire_single" fire_single="ar15_fire_single" fire_auto="ar15_fire_single" use_fix="true"> 
+			<sounds fire="ar15_fire_auto" fire_single="ar15_fire_single" fire_auto="ar15_fire_auto" use_fix="true"> 
 				<reload wp_tti_mag_in="wp_stoy_556_mag_in" wp_tti_mag_out="wp_stoy_556_mag_out" wp_tti_pull_lever="wp_stoy_556_pull_bolt" wp_tti_release_lever="wp_stoy_556_release_bolt" wp_tti_mag_contact="wp_stoy_556_mag_contact" wp_foley_generic_clip_in_connect="wp_stoy_556_mag_connect"/>
 			</sounds>
 			<animations reload_name_id="tti" equip_id="equip_flint" recoil_steelsight="true"/>
@@ -150,13 +150,18 @@
 			</uses_parts>
 			
 		</factory>
-		<stance/>		
+		<stance>
+			<steelsight>
+				<shoulders rotation="0 0 0 0" translation="-10.26 -5 3.55"/>
+			</steelsight>
+		</stance>	
 	</Weapon>
 	
 	
 	<Sounds directory="assets\sounds">
 		<sound id="ar15_fire_single" path="ar15_fire_single.ogg" prefix="regular"/>
-		<sound id="ar15_fire_single" path="ar15_fire_single.ogg" prefix="regular_b"/>
+		<sound id="ar15_fire_auto" 	 path="ar15_fire_auto.ogg" prefix="regular"/>
+		<sound id="ar15_fire_single" path="ar15_fire_pr.ogg" prefix="regular_b"/>
 		<sound id="ar15_fire_single" path="ar15_fire_single.ogg" prefix="suppressed_a"/>
 		<sound id="ar15_fire_single" path="ar15_fire_single.ogg" prefix="suppressed_b"/>
 		<sound id="ar15_fire_single" path="ar15_fire_single.ogg" prefix="suppressed_c"/>
