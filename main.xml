@@ -328,6 +328,8 @@
 		
 		<!-- ICONS -->
 		
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/stoy_556"/>
+		
 	</AddFiles>
 	
 	<Hooks directory="hooks">
