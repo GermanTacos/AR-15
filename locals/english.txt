@@ -70,6 +70,9 @@
 	"bm_wp_wpn_fps_ass_stoy_556_ur_m16a4"    : "M16A4 Upper Receiver",
 	"bm_wp_wpn_fps_ass_stoy_556_gb_m16a4"    : "M16A4 Gas Block",
 	
+	"bm_wp_wpn_fps_ass_stoy_556_m_steel_20"  : "Standard 20 Round Magazine",
+	"bm_wp_wpn_fps_ass_stoy_556_m_steel_30"  : "30 Round STANAG Magazine",
+	
 	"bm_wp_wpn_fps_ass_stoy_556_so_pr"   	: "Project Reality Sounds"
 	
 }
