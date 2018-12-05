@@ -31,14 +31,18 @@
 	"bm_menu_magwell"        	: "Magwell",
 	"bm_menu_magwell_plural" 	: "Magwells",
 	
-	"bm_wp_wpn_fps_ass_stoy_556_ba_m16"    : "M16 Barrel",
-	"bm_wp_wpn_fps_ass_stoy_556_md_m16"    : "M16 Muzzle Brake",
-	"bm_wp_wpn_fps_ass_stoy_556_ch_m16"    : "M16 Bolt",
-	"bm_wp_wpn_fps_ass_stoy_556_hg_m16"    : "M16 Handguard",
-	"bm_wp_wpn_fps_ass_stoy_556_st_m16"    : "M16 Stock",
-	"bm_wp_wpn_fps_ass_stoy_556_pg_m16"    : "M16 Grip",
-	"bm_wp_wpn_fps_ass_stoy_556_lr_m16"    : "M16 Receiver",
-	"bm_wp_wpn_fps_ass_stoy_556_ur_m16"    : "M16 Upper",
+	"bm_wp_wpn_fps_ass_stoy_556_ba_ar15"    : "AR-15 Barrel",
+	"bm_wp_wpn_fps_ass_stoy_556_md_ar15"    : "AR-15 Muzzle Brake",
+	"bm_wp_wpn_fps_ass_stoy_556_ch_ar15"    : "AR-15 Bolt",
+	"bm_wp_wpn_fps_ass_stoy_556_hg_ar15"    : "AR-15 Handguard",
+	"bm_wp_wpn_fps_ass_stoy_556_st_ar15"    : "AR-15 Stock",
+	"bm_wp_wpn_fps_ass_stoy_556_pg_ar15"    : "AR-15 Grip",
+	"bm_wp_wpn_fps_ass_stoy_556_lr_ar15"    : "AR-15 Receiver",
+	"bm_wp_wpn_fps_ass_stoy_556_ur_ar15"    : "AR-15 Upper",
+	
+	"bm_wp_wpn_fps_ass_stoy_556_hg_m16"     : "M16 Handguard",
+	"bm_wp_wpn_fps_ass_stoy_556_st_m16"     : "M16 Stock",
+	"bm_wp_wpn_fps_ass_stoy_556_pg_m16"     : "M16 Grip",
 	
 	"bm_wp_wpn_fps_ass_stoy_556_so_pr"   	: "Project Reality Sounds"
 	
