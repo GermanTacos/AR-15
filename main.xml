@@ -649,6 +649,13 @@
 		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/m16a2_furniture_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/m16a2_furniture_nm"/>
 		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ba_m16a2"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ba_m16a2"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ba_m16a2"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ba_m16a2"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ba_m16a2"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ba_m16a2_thq"/>
+		
 		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ur_m16a2"/>
 		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ur_m16a2"/>
 		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ur_m16a2"/>

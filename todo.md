@@ -1,1 +1,2 @@
 - [x] Test what sound event corresponds to which animation  
+- [ ] Swap bolt base to charging handle (CAP doesn't work since it misplaces the bolt)
