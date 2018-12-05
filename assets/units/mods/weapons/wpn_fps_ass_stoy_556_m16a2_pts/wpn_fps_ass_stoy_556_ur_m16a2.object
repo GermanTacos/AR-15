@@ -1,5 +1,5 @@
 <dynamic_object>
-	<diesel materials="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ur_ar15" orientation_object="rp_wpn_fps_snp_tti_body_receiverlower" />
+	<diesel materials="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ur_m16a2" orientation_object="rp_wpn_fps_snp_tti_body_receiverlower" />
 	<graphics>
 		<object name="g_receiver_lower" enabled="true" />
 	</graphics>
