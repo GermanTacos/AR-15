@@ -38,7 +38,7 @@ if ( self.stoy_556 ) then
 	self:SetupAttachmentPoint("stoy_556", {
         name = "a_bolt_ar15",
         base_a_obj = "a_body",
-        part_attach_data = {{"wpn_fps_ass_stoy_556_ch_m16"},"g_charginghandle"},
+        part_attach_data = {{"wpn_fps_ass_stoy_556_ch_ar15"},"g_charginghandle"},
         position = Vector3(0, 0, 0),
         rotation = RotationCAP(0, 0, 0)
     })
