@@ -169,7 +169,10 @@ local all_ar15ext = {
 	"wpn_fps_upg_ass_ns_linear",
 	"wpn_fps_upg_ass_ns_surefire",
 	"wpn_fps_upg_ass_ns_battle",
-	"wpn_fps_ass_stoy_556_md_m16"
+	"wpn_fps_ass_stoy_556_md_m16",
+	"wpn_fps_ass_stoy_556_md_m16a1",
+	"wpn_fps_ass_stoy_556_md_m16a2",
+	"wpn_fps_ass_stoy_556_md_car15"
 }
 
 --- Gadgets (Flashlights/Lasers) ---
