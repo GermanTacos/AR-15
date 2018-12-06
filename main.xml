@@ -59,7 +59,7 @@
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_stp_ar15"    based_on="wpn_fps_snp_tti_body_receiverlower" type="stock_part"      unit="units/mods/weapons/wpn_fps_ass_stoy_556_ar15_pts/wpn_fps_ass_stoy_556_stp_ar15" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
-	<WeaponMod id="wpn_fps_ass_stoy_556_bo_ar15"     based_on="wpn_fps_snp_tti_body_receiverlower" type="bolt"            unit="units/mods/weapons/wpn_fps_ass_stoy_556_ar15_pts/wpn_fps_ass_stoy_556_bo_ar15" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	<WeaponMod id="wpn_fps_ass_stoy_556_bo_ar15"     based_on="wpn_fps_snp_tti_dh_standard"        type="bolt"            unit="units/mods/weapons/wpn_fps_ass_stoy_556_ar15_pts/wpn_fps_ass_stoy_556_bo_ar15" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ch_ar15"     based_on="wpn_fps_snp_tti_dh_standard"        type="charging_handle" unit="units/mods/weapons/wpn_fps_ass_stoy_556_ar15_pts/wpn_fps_ass_stoy_556_ch_ar15" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
@@ -126,7 +126,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_stoy_556_bo_m16a1"     based_on="wpn_fps_snp_tti_body_receiverlower" type="bolt"            unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a1_pts/wpn_fps_ass_stoy_556_bo_m16a1" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_stoy_556_bo_m16a1"     based_on="wpn_fps_snp_tti_dh_standard"        type="bolt"            unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a1_pts/wpn_fps_ass_stoy_556_bo_m16a1" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<pcs/>
 	</WeaponMod>
 	
