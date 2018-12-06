@@ -1,6 +1,6 @@
 <dynamic_object>
-	<diesel materials="units/mods/weapons/wpn_fps_ass_stoy_556_m16a1_pts/wpn_fps_ass_stoy_556_md_m16a1" orientation_object="rp_wpn_fps_snp_tti_ns_standard" />
+	<diesel materials="units/mods/weapons/wpn_fps_ass_stoy_556_m16a1_pts/wpn_fps_ass_stoy_556_md_m16a1" orientation_object="rp_wpn_fps_upg_ass_ns_battle" />
 	<graphics>
-		<object name="g_nozzle" inherit_bounding_volume="co_culling" enabled="true" />
+		<object name="g_battle" enabled="true" />
 	</graphics>
 </dynamic_object>
