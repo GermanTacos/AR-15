@@ -75,6 +75,11 @@
 	"bm_wp_wpn_fps_ass_stoy_556_ba_car15"   : "CAR-15 Barrel",
 	"bm_wp_wpn_fps_ass_stoy_556_md_car15"   : "CAR-15 Flash Hider",
 	
+	"bm_wp_wpn_fps_ass_stoy_556_hg_m607"    : "M607 Handguard",
+	"bm_wp_wpn_fps_ass_stoy_556_st_m607"    : "M607 Stock",
+	
+	"bm_wp_wpn_fps_ass_stoy_556_ba_m733"    : "M733 Barrel",
+	
 	"bm_wp_wpn_fps_ass_stoy_556_lr_m4"       : "M4 Lower Receiver",
 	"bm_wp_wpn_fps_ass_stoy_556_ur_m4"       : "M4 Upper Receiver",
 	"bm_wp_wpn_fps_ass_stoy_556_ba_m4"       : "M4 Barrel",
