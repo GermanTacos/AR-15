@@ -1,2 +1,5 @@
 - [x] Test what sound event corresponds to which animation  
 - [ ] Swap bolt base to charging handle (CAP doesn't work since it misplaces the bolt)
+- [ ] Replace placeholder m4a1_furniture_df and m4a1_furniture_nm
+- [ ] Fix Meshhole at the back of all receivers
+- [ ] Swap MD base

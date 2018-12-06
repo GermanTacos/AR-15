@@ -125,18 +125,35 @@ local all_ar15stock = {
 --- Handguard  ---
 -- Default length --
 local all_ar15handguard = {
-	"wpn_fps_ass_stoy_556_hg_m16"
+	"wpn_fps_ass_stoy_556_hg_ar15",
+	"wpn_fps_ass_stoy_556_hg_m16",
+	"wpn_fps_ass_stoy_556_hg_m16a2",
+	"wpn_fps_ass_stoy_556_hg_m607",
+	"wpn_fps_ass_stoy_556_hg_m4",
+	"wpn_fps_ass_stoy_556_hg_m4a1"
 }
 
 --- Barrel ---
 -- Default length --
 local all_ar15barrel = {
-	"wpn_fps_ass_stoy_556_ba_m16"
+	"wpn_fps_ass_stoy_556_ba_ar15",
+	"wpn_fps_ass_stoy_556_ba_m16a1",
+	"wpn_fps_ass_stoy_556_ba_m16a2",
+	"wpn_fps_ass_stoy_556_ba_car15",
+	"wpn_fps_ass_stoy_556_ba_m733",
+	"wpn_fps_ass_stoy_556_ba_m4",
+	"wpn_fps_ass_stoy_556_ba_m4_short"
 }
 
 --- Front Sights ---
 local all_ar15fo = {
 	"wpn_fps_ass_stoy_556_fo_ak9"
+}
+--- Gas Blocks ---
+local all_ar15gb = {
+	"wpn_fps_ass_stoy_556_gb_ar15",
+	"wpn_fps_ass_stoy_556_gb_m16a1",
+	"wpn_fps_ass_stoy_556_gb_m16a4"
 }
 
 --- Barrel Extensions --
@@ -236,6 +253,21 @@ end
 ----<A><R><1><5> -Override- <A><R><1><5>----
 --------------------------------------------
 
+--- Barrels ---
+for id, ba_id in pairs(all_ar15barrel) do
+	self:arpack_check_override( "part", ba_id )
+end
+--- Handguard ---
+for id, hg_id in pairs(all_ar15handguard) do
+	self:arpack_check_override( "part", hg_id )
+end
+--GB override--
+for id, gb_id in pairs(all_ar15gb) do
+	self.parts.wpn_fps_ass_stoy_556_hg_m607.override[gb_id] = {a_obj="a_gb_car15"}
+	self.parts.wpn_fps_ass_stoy_556_hg_m4.override[gb_id] 	= {a_obj="a_gb_car15"}
+	self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override[gb_id] = {a_obj="a_gb_car15"}
+end
+
 ----------------------------------------
 ----<A><R><1><5> -Adds- <A><R><1><5>----
 ----------------------------------------
@@ -264,7 +296,7 @@ self.parts.wpn_fps_upg_o_45rds_v2.stance_mod.wpn_fps_ass_stoy_556 		  = deep_clo
 ------------------------------------------
 
 --- Barrel Extensions ---
-self.parts.wpn_fps_ass_stoy_556_fh_dummy.pcs = nil
+self.parts.wpn_fps_ass_stoy_556_md_dummy.pcs = nil
 
 ------------------------------------------
 ----<A><R><1><5> -CLONES- <A><R><1><5>----

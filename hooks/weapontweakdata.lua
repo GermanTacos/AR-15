@@ -42,6 +42,13 @@ if ( self.stoy_556 ) then
         position = Vector3(0, 0, 0),
         rotation = RotationCAP(0, 0, 0)
     })
+--- Gas Block ---
+	self:SetupAttachmentPoint("stoy_556", {
+		name = "a_gb_car15", 
+        base_a_obj = "a_body", 
+        position = Vector3( 0, -12.75, 0 ),
+        rotation = Rotation( 0, 0, 0 ) 
+	})
 end
 end)
 
