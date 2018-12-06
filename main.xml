@@ -210,6 +210,19 @@
 		<pcs/>
 	</WeaponMod>
 	
+	<!-- CAR-15 -->
+	
+	<WeaponMod id="wpn_fps_ass_stoy_556_ba_car15"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_ba_car15" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<override>
+			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_md_car15"/>
+		</override>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_stoy_556_md_car15"     based_on="wpn_fps_snp_tti_ns_standard"        type="barrel_ext"      unit="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_md_car15" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<pcs/>
+	</WeaponMod>
+	
 	<!-- M4 -->
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ba_m4"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_ass_stoy_556_m4_pts/wpn_fps_ass_stoy_556_ba_m4" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
@@ -386,6 +399,9 @@
 				<value_node value="wpn_fps_ass_stoy_556_lr_m16a4"/>
 				<value_node value="wpn_fps_ass_stoy_556_ur_m16a4"/>
 				<value_node value="wpn_fps_ass_stoy_556_gb_m16a4"/>
+				
+				<value_node value="wpn_fps_ass_stoy_556_ba_car15"/>
+				<value_node value="wpn_fps_ass_stoy_556_md_car15"/>
 				
 				<value_node value="wpn_fps_ass_stoy_556_lr_m4"/>
 				<value_node value="wpn_fps_ass_stoy_556_ur_m4"/>
@@ -850,6 +866,31 @@
 		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a4_pts/wpn_fps_ass_stoy_556_gb_m16a4"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a4_pts/wpn_fps_ass_stoy_556_gb_m16a4"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_m16a4_pts/wpn_fps_ass_stoy_556_gb_m16a4_thq"/>
+		
+		<!-- CAR-15 PTS -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/car15_body_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/car15_body_nm"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/car15_flash_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/car15_flash_nm"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/car15_furniture_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/car15_furniture_nm"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_ba_car15"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_ba_car15"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_ba_car15"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_ba_car15"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_ba_car15"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_ba_car15_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_md_car15"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_md_car15"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_md_car15"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_md_car15"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_md_car15"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_md_car15_thq"/>
 		
 		<!-- M4 PTS -->
 		

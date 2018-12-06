@@ -72,15 +72,21 @@
 	"bm_wp_wpn_fps_ass_stoy_556_ur_m16a4"   : "M16A4 Upper Receiver",
 	"bm_wp_wpn_fps_ass_stoy_556_gb_m16a4"   : "M16A4 Gas Block",
 	
+	"bm_wp_wpn_fps_ass_stoy_556_ba_car15"   : "CAR-15 Barrel",
+	"bm_wp_wpn_fps_ass_stoy_556_md_car15"   : "CAR-15 Flash Hider",
+	
 	"bm_wp_wpn_fps_ass_stoy_556_lr_m4"       : "M4 Lower Receiver",
 	"bm_wp_wpn_fps_ass_stoy_556_ur_m4"       : "M4 Upper Receiver",
 	"bm_wp_wpn_fps_ass_stoy_556_ba_m4"       : "M4 Barrel",
 	"bm_wp_wpn_fps_ass_stoy_556_ba_m4_short" : "Short M4 Barrel",
-	"bm_wp_wpn_fps_ass_stoy_556_hg_m4"       : "M4 Handguard",
-	"bm_wp_wpn_fps_ass_stoy_556_st_m4"       : "M4 Stock",
+	"bm_wp_wpn_fps_ass_stoy_556_hg_m4"       : "CAR-15 Handguard",
+	"bm_wp_wpn_fps_ass_stoy_556_st_m4"       : "CAR-15 Stock",
 	
 	"bm_wp_wpn_fps_ass_stoy_556_hg_m4a1"     : "M4A1 Handguard",
 	"bm_wp_wpn_fps_ass_stoy_556_st_m4a1"     : "M4A1 Stock",
+	
+	"bm_wp_wpn_fps_ass_stoy_556_ba_m4a1"     : "CAR-15 Barrel",
+	"bm_wp_wpn_fps_ass_stoy_556_md_m4a1"     : "CAR-15 Flash Hider",
 	 
 	"bm_wp_wpn_fps_ass_stoy_556_m_steel_20" : "Standard 20 Round Magazine",
 	"bm_wp_wpn_fps_ass_stoy_556_m_steel_30" : "30 Round STANAG Magazine",
