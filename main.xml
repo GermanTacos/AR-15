@@ -191,7 +191,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_stoy_556_ca_m16a3"     based_on="wpn_fps_snp_tti_body_receiverlower" type="carry_handle"    unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a3_pts/wpn_fps_ass_stoy_556_ca_m16a3" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_stoy_556_ca_m16a3"     based_on="wpn_fps_snp_tti_body_receiverlower" type="sight_rear"      unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a3_pts/wpn_fps_ass_stoy_556_ca_m16a3" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<adds>
 			<value_node value="wpn_fps_ass_stoy_556_ro_m16a3"/>
 		</adds>
