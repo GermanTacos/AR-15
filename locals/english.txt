@@ -78,6 +78,9 @@
 	"bm_wp_wpn_fps_ass_stoy_556_ba_m4_short" : "Short M4 Barrel",
 	"bm_wp_wpn_fps_ass_stoy_556_hg_m4"       : "M4 Handguard",
 	"bm_wp_wpn_fps_ass_stoy_556_st_m4"       : "M4 Stock",
+	
+	"bm_wp_wpn_fps_ass_stoy_556_hg_m4a1"     : "M4A1 Handguard",
+	"bm_wp_wpn_fps_ass_stoy_556_st_m4a1"     : "M4A1 Stock",
 	 
 	"bm_wp_wpn_fps_ass_stoy_556_m_steel_20" : "Standard 20 Round Magazine",
 	"bm_wp_wpn_fps_ass_stoy_556_m_steel_30" : "30 Round STANAG Magazine",
