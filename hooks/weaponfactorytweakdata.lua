@@ -169,7 +169,8 @@ local all_ar15ext = {
 	"wpn_fps_upg_ass_ns_linear",
 	"wpn_fps_upg_ass_ns_surefire",
 	"wpn_fps_upg_ass_ns_battle",
-	"wpn_fps_ass_stoy_556_md_m16",
+	"wpn_fps_ass_stoy_556_md_dummy",
+	"wpn_fps_ass_stoy_556_md_ar15",
 	"wpn_fps_ass_stoy_556_md_m16a1",
 	"wpn_fps_ass_stoy_556_md_m16a2",
 	"wpn_fps_ass_stoy_556_md_car15"
@@ -269,6 +270,14 @@ for id, gb_id in pairs(all_ar15gb) do
 	self.parts.wpn_fps_ass_stoy_556_hg_m607.override[gb_id] = {a_obj="a_gb_car15"}
 	self.parts.wpn_fps_ass_stoy_556_hg_m4.override[gb_id] 	= {a_obj="a_gb_car15"}
 	self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override[gb_id] = {a_obj="a_gb_car15"}
+end
+--MD override--
+for id, ext_id in pairs(all_ar15ext) do
+	if ext_id ~= "wpn_fps_ass_stoy_556_md_dummy" then
+		self.parts.wpn_fps_ass_stoy_556_ba_car15.override[ext_id] = {a_obj="a_ns_car15"}
+		self.parts.wpn_fps_ass_stoy_556_ba_m733.override[ext_id]  = {a_obj="a_ns_m733"}
+		self.parts.wpn_fps_ass_stoy_556_ba_m4.override[ext_id] 	  = {a_obj="a_ns_m4"}
+	end
 end
 
 ----------------------------------------

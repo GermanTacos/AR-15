@@ -18,6 +18,9 @@
 		<override>
 			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_ar15_pts/wpn_fps_ass_stoy_556_md_ar15"/>
 		</override>
+		<forbids>
+			<value_node value="wpn_fps_ass_stoy_556_md_ar15"/>
+		</forbids>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_gb_ar15"     based_on="wpn_fps_snp_tti_body_receiverlower" type="gas_block"       unit="units/mods/weapons/wpn_fps_ass_stoy_556_ar15_pts/wpn_fps_ass_stoy_556_gb_ar15" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
@@ -48,6 +51,11 @@
 		<adds>
 			<value_node value="wpn_fps_ass_stoy_556_gt_ar15"/>
 		</adds>
+		<forbids>
+			<value_node value="wpn_fps_ass_stoy_556_ba_car15"/>
+			<value_node value="wpn_fps_ass_stoy_556_ba_m4_short"/>
+			<value_node value="wpn_fps_ass_stoy_556_ba_m733"/>
+		</forbids>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_gt_ar15"     based_on="wpn_fps_snp_tti_body_receiverlower" type="gas_tube"        unit="units/mods/weapons/wpn_fps_ass_stoy_556_ar15_pts/wpn_fps_ass_stoy_556_gt_ar15" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
@@ -74,6 +82,11 @@
 		<adds>
 			<value_node value="wpn_fps_ass_stoy_556_gt_ar15"/>
 		</adds>
+		<forbids>
+			<value_node value="wpn_fps_ass_stoy_556_ba_car15"/>
+			<value_node value="wpn_fps_ass_stoy_556_ba_m4_short"/>
+			<value_node value="wpn_fps_ass_stoy_556_ba_m733"/>
+		</forbids>
 		<pcs/>
 	</WeaponMod>
 
@@ -163,6 +176,11 @@
 		<adds>
 			<value_node value="wpn_fps_ass_stoy_556_gt_m16a2"/>
 		</adds>
+		<forbids>
+			<value_node value="wpn_fps_ass_stoy_556_ba_car15"/>
+			<value_node value="wpn_fps_ass_stoy_556_ba_m4_short"/>
+			<value_node value="wpn_fps_ass_stoy_556_ba_m733"/>
+		</forbids>
 		<pcs/>
 	</WeaponMod>
 	
@@ -236,8 +254,11 @@
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ba_m733"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_ass_stoy_556_m733_pts/wpn_fps_ass_stoy_556_ba_m733" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<override>
-			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_md_m16a2"/>
+			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_md_m16a2" a_obj="a_ns_m733"/>
 		</override>
+		<forbids>
+			<value_node value="wpn_fps_ass_stoy_556_md_m16a2"/>
+		</forbids>
 		<pcs/>
 	</WeaponMod>
 	
@@ -245,8 +266,11 @@
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ba_car15"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_ba_car15" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<override>
-			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_md_car15"/>
+			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_md_car15" a_obj="a_ns_car15"/>
 		</override>
+		<forbids>
+			<value_node value="wpn_fps_ass_stoy_556_md_car15"/>
+		</forbids>
 		<pcs/>
 	</WeaponMod>
 	
@@ -258,8 +282,11 @@
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ba_m4"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_ass_stoy_556_m4_pts/wpn_fps_ass_stoy_556_ba_m4" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<override>
-			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_md_m16a2"/>
+			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_md_m16a2" a_obj="a_ns_m4"/>
 		</override>
+		<forbids>
+			<value_node value="wpn_fps_ass_stoy_556_md_m16a2"/>
+		</forbids>
 		<pcs/>
 	</WeaponMod>
 	
@@ -403,6 +430,8 @@
 				<value_node value="wpn_fps_ass_stoy_556_ro_ar15"/>
 				<value_node value="wpn_fps_ass_stoy_556_fo_ar15"/>
 				<value_node value="wpn_fps_ass_stoy_556_bo_ar15"/>
+				
+				<value_node value="wpn_fps_ass_stoy_556_md_ar15"/>
 				
 				<value_node value="wpn_fps_ass_stoy_556_hg_m16"/>
 				<value_node value="wpn_fps_ass_stoy_556_pg_m16"/>

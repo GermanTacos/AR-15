@@ -8,7 +8,7 @@ if ( self.stoy_556 ) then
 	self:SetupAttachmentPoint("stoy_556", {
 		name = "a_ns", 
         base_a_obj = "a_ns", 
-        position = Vector3( 0, 0, 0 ),
+        position = Vector3( 0, 4.1, -0.3 ),
         rotation = Rotation( 0, 0, 0 ) 
 	})
 	self:SetupAttachmentPoint("stoy_556", {
@@ -48,6 +48,25 @@ if ( self.stoy_556 ) then
         base_a_obj = "a_body", 
         position = Vector3( 0, -12.75, 0 ),
         rotation = Rotation( 0, 0, 0 ) 
+	})
+--- MDs ---
+	self:SetupAttachmentPoint("stoy_556", {
+		name = "a_ns_m4", 
+        base_a_obj = "a_ns", 
+        position = Vector3( 0, -8.65, -0.3 ),
+        rotation = Rotation( 0, 0, 0 )
+	})
+	self:SetupAttachmentPoint("stoy_556", {
+		name = "a_ns_car15", 
+        base_a_obj = "a_ns", 
+        position = Vector3( 0, -18.75, -0.3 ),
+        rotation = Rotation( 0, 0, 0 )
+	})
+	self:SetupAttachmentPoint("stoy_556", {
+		name = "a_ns_m733", 
+        base_a_obj = "a_ns", 
+        position = Vector3( 0, -15.15, -0.3 ),
+        rotation = Rotation( 0, 0, 0 )
 	})
 end
 end)
