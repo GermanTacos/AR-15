@@ -96,6 +96,7 @@
 	"bm_wp_wpn_fps_ass_stoy_556_md_m4a1"     : "CAR-15 Flash Hider",
 	 
 	"bm_wp_wpn_fps_ass_stoy_556_m_steel_20" : "Standard 20 Round Magazine",
+	"bm_wp_wpn_fps_ass_stoy_556_m_cross_20" : "ArmaLite 20 Round Magazine",
 	"bm_wp_wpn_fps_ass_stoy_556_m_steel_30" : "30 Round STANAG Magazine",
 	
 	"bm_wp_wpn_fps_ass_stoy_556_sm_base"    : "Carry Handle Rail",
