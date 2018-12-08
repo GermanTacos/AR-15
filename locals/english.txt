@@ -98,6 +98,8 @@
 	"bm_wp_wpn_fps_ass_stoy_556_m_steel_20" : "Standard 20 Round Magazine",
 	"bm_wp_wpn_fps_ass_stoy_556_m_steel_30" : "30 Round STANAG Magazine",
 	
+	"bm_wp_wpn_fps_ass_stoy_556_sm_base"    : "Carry Handle Rail",
+	
 	"bm_wp_wpn_fps_ass_stoy_556_so_pr"   	: "Project Reality Sounds"
 	
 }

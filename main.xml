@@ -358,6 +358,18 @@
 		<pcs/>
 	</WeaponMod>
 	
+	<!-- SCOPE MOUNT -->
+	
+	<WeaponMod id="wpn_fps_ass_stoy_556_sm_base"     based_on="wpn_fps_snp_tti_body_receiverlower" type="scope_mount"       unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_base" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<adds>
+			<value_node value="wpn_fps_ass_stoy_556_sm_knob"/>
+		</adds>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_stoy_556_sm_knob"     based_on="wpn_fps_snp_tti_body_receiverlower" type="knob"        unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_knob" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	
 	<!-- SOUND -->
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_so_pr"       based_on="wpn_fps_upg_a_custom_free"                                 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" type="sound" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
@@ -483,6 +495,8 @@
 				
 				<value_node value="wpn_fps_ass_stoy_556_m_steel_20"/>
 				<value_node value="wpn_fps_ass_stoy_556_m_steel_30"/>
+				
+				<value_node value="wpn_fps_ass_stoy_556_sm_base"/>
 				
 				<value_node value="wpn_fps_ass_stoy_556_so_pr"/>
 				
@@ -1128,6 +1142,25 @@
 		
 		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/ar_carry_handle_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/ar_carry_handle_nm"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/sr25_body_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/sr25_body_nm"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/mount_base_df"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_base"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_base"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_base"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_base"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_base"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_base_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_knob"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_knob"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_knob"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_knob"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_knob"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_knob_thq"/>
 		
 		<!-- UNIT PTS -->
 		
