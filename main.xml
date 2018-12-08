@@ -206,6 +206,11 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ur_m16a3"     based_on="wpn_fps_snp_tti_body_receiverlower" type="receiver_upper"  unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a3_pts/wpn_fps_ass_stoy_556_ur_m16a3" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<override>
+			<wpn_fps_ass_stoy_556_ro_ar15 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+			<wpn_fps_ass_stoy_556_sm_base unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+			<wpn_fps_ass_stoy_556_sm_knob unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+		</override>
 		<pcs/>
 	</WeaponMod>
 	
@@ -213,6 +218,7 @@
 		<adds>
 			<value_node value="wpn_fps_ass_stoy_556_ro_m16a3"/>
 		</adds>
+		<override/>
 		<pcs/>
 	</WeaponMod>
 	
@@ -230,6 +236,11 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ur_m16a4"     based_on="wpn_fps_snp_tti_body_receiverlower" type="receiver_upper"  unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a4_pts/wpn_fps_ass_stoy_556_ur_m16a4" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<override>
+			<wpn_fps_ass_stoy_556_ro_ar15 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+			<wpn_fps_ass_stoy_556_sm_base unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+			<wpn_fps_ass_stoy_556_sm_knob unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+		</override>
 		<pcs/>
 	</WeaponMod>
 	
@@ -360,13 +371,8 @@
 	
 	<!-- SCOPE MOUNT -->
 	
-	<WeaponMod id="wpn_fps_ass_stoy_556_sm_base"     based_on="wpn_fps_snp_tti_body_receiverlower" type="scope_mount"       unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_base" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<adds>
-			<value_node value="wpn_fps_ass_stoy_556_sm_knob"/>
-		</adds>
-		<pcs/>
-	</WeaponMod>
-	
+	<WeaponMod id="wpn_fps_ass_stoy_556_sm_base"     based_on="wpn_fps_snp_tti_body_receiverlower" type="scope_mount"       unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_base" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+
 	<WeaponMod id="wpn_fps_ass_stoy_556_sm_knob"     based_on="wpn_fps_snp_tti_body_receiverlower" type="knob"        unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_sm_knob" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
 	
@@ -499,6 +505,11 @@
 				<value_node value="wpn_fps_ass_stoy_556_sm_base"/>
 				
 				<value_node value="wpn_fps_ass_stoy_556_so_pr"/>
+				
+				<value_node value="wpn_fps_upg_o_acog"/>
+				<value_node value="wpn_fps_upg_o_specter"/>
+				<value_node value="wpn_fps_upg_o_reflex"/>
+				<value_node value="wpn_fps_upg_o_cs"/>
 				
 			</uses_parts>
 			

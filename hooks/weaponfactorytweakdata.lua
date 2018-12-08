@@ -279,11 +279,21 @@ for id, ext_id in pairs(all_ar15ext) do
 		self.parts.wpn_fps_ass_stoy_556_ba_m4.override[ext_id] 	  = {a_obj="a_ns_m4"}
 	end
 end
+--- Lowers/Carry Handle ---
+--O override--
+for i, o_id in pairs(all_ar15sight) do
+	self.parts.wpn_fps_ass_stoy_556_ur_m16a3.override[o_id] = {a_obj="a_o_lower", stance_mod={wpn_fps_ass_stoy_556 = {translation = Vector3(0, 5, -0.65)}}}
+	self.parts.wpn_fps_ass_stoy_556_ca_m16a3.override.wpn_fps_ass_stoy_556_ur_m16a3 = {override = {o_id = {}}}
+	self.parts.wpn_fps_ass_stoy_556_ur_m16a4.override[o_id] = {a_obj="a_o_lower", stance_mod={wpn_fps_ass_stoy_556 = {translation = Vector3(0, 5, -0.65)}}}
+	self.parts.wpn_fps_ass_stoy_556_ur_m16a4.override.wpn_fps_ass_stoy_556_ur_m16a3 = {override = {o_id = {}}}
+end
 
 ----------------------------------------
 ----<A><R><1><5> -Adds- <A><R><1><5>----
 ----------------------------------------
-	
+for i, o_id in pairs(all_ar15sight) do
+	self.wpn_fps_ass_stoy_556.adds[o_id] = {"wpn_fps_ass_stoy_556_sm_base","wpn_fps_ass_stoy_556_sm_knob"}
+end
 -------------------------------------------
 ----<A><R><1><5> -Forbids- <A><R><1><5>----
 -------------------------------------------
@@ -295,13 +305,13 @@ end
 --- Vanilla sights ---
 -- non-acoc, default sights --
 for i, o_id in pairs(nonacog_arsight) do
-	self.parts[o_id].stance_mod.wpn_fps_ass_stoy_556 = {translation = Vector3(0, 7, -3.7)}
+	self.parts[o_id].stance_mod.wpn_fps_ass_stoy_556 = {translation = Vector3(0, 7, -5.05)}
 end
 -- other sights --
-self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_stoy_556 			  = deep_clone(self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_snp_tti)
-self.parts.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_ass_stoy_556 		   	  = deep_clone(self.parts.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_snp_tti)
-self.parts.wpn_fps_upg_o_xpsg33_magnifier.stance_mod.wpn_fps_ass_stoy_556 = deep_clone(self.parts.wpn_fps_upg_o_xpsg33_magnifier.stance_mod.wpn_fps_snp_tti)
-self.parts.wpn_fps_upg_o_45rds_v2.stance_mod.wpn_fps_ass_stoy_556 		  = deep_clone(self.parts.wpn_fps_upg_o_45rds_v2.stance_mod.wpn_fps_snp_tti)
+self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_stoy_556 			  = {translation = Vector3(0, 5, -5.05)}
+self.parts.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_ass_stoy_556 		   	  = deep_clone(self.parts.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_ass_flint)
+self.parts.wpn_fps_upg_o_xpsg33_magnifier.stance_mod.wpn_fps_ass_stoy_556 = deep_clone(self.parts.wpn_fps_upg_o_xpsg33_magnifier.stance_mod.wpn_fps_ass_flint)
+self.parts.wpn_fps_upg_o_45rds_v2.stance_mod.wpn_fps_ass_stoy_556 		  = deep_clone(self.parts.wpn_fps_upg_o_45rds_v2.stance_mod.wpn_fps_ass_flint)
 
 ------------------------------------------
 ----<A><R><1><5> -Tweaks- <A><R><1><5>----
