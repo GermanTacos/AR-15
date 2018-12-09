@@ -265,6 +265,13 @@ end
 for id, hg_id in pairs(all_ar15handguard) do
 	self:arpack_check_override( "part", hg_id )
 end
+--FL overrides--
+self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override.wpn_fps_addon_ris = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
+for i, fl_id in pairs(all_ar15fl) do
+	if fl_id ~= "wpn_fps_addon_ris" then
+		self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override[fl_id] = {a_obj="a_fl_m4a1"}
+	end
+end
 --GB override--
 for id, gb_id in pairs(all_ar15gb) do
 	self.parts.wpn_fps_ass_stoy_556_hg_m607.override[gb_id] = {a_obj="a_gb_car15"}
@@ -287,7 +294,6 @@ for i, o_id in pairs(all_ar15sight) do
 	self.parts.wpn_fps_ass_stoy_556_ur_m16a4.override[o_id] = {a_obj="a_o_lower", stance_mod={wpn_fps_ass_stoy_556 = {translation = Vector3(0, 5, -0.65)}}}
 	self.parts.wpn_fps_ass_stoy_556_ur_m16a4.override.wpn_fps_ass_stoy_556_ur_m16a3 = {override = {o_id = {}}}
 end
-
 ----------------------------------------
 ----<A><R><1><5> -Adds- <A><R><1><5>----
 ----------------------------------------
@@ -297,7 +303,11 @@ end
 -------------------------------------------
 ----<A><R><1><5> -Forbids- <A><R><1><5>----
 -------------------------------------------
-
+for i, fl_id in pairs(all_ar15fl) do
+	table.insert(self.parts.wpn_fps_ass_stoy_556_hg_m16.forbids, fl_id)
+	table.insert(self.parts.wpn_fps_ass_stoy_556_hg_ar15.forbids, fl_id)
+	table.insert(self.parts.wpn_fps_ass_stoy_556_hg_m607.forbids, fl_id)
+end
 ------------------------------------------
 ----<A><R><1><5> -Stance- <A><R><1><5>----
 ------------------------------------------
