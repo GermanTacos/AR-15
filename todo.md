@@ -1,6 +1,6 @@
 - [x] Test what sound event corresponds to which animation  
 - [x] Swap bolt base to charging handle (CAP doesn't work since it misplaces the bolt)
-- [ ] Replace placeholder m4a1_furniture_df and m4a1_furniture_nm
+- [x] Replace placeholder m4a1_furniture_df and m4a1_furniture_nm
 - [x] Fix Meshhole at the back of all receivers
 - [x] Swap MD base
-- [ ] Add top rail for sight mounting on carry handles
+- [x] Add top rail for sight mounting on carry handles

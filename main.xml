@@ -223,7 +223,7 @@
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ur_m16a3"     based_on="wpn_fps_snp_tti_body_receiverlower" type="receiver_upper"  unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a3_pts/wpn_fps_ass_stoy_556_ur_m16a3" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<override>
-			<wpn_fps_ass_stoy_556_ro_ar15 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+			<wpn_fps_ass_stoy_556_ro_ar15 unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_ro_a2"/>
 			<wpn_fps_ass_stoy_556_sm_base unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_stoy_556_sm_knob unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 		</override>
@@ -258,7 +258,7 @@
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ur_m16a4"     based_on="wpn_fps_snp_tti_body_receiverlower" type="receiver_upper"  unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a4_pts/wpn_fps_ass_stoy_556_ur_m16a4" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<override>
-			<wpn_fps_ass_stoy_556_ro_ar15 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+			<wpn_fps_ass_stoy_556_ro_ar15 unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_ro_a2"/>
 			<wpn_fps_ass_stoy_556_sm_base unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_stoy_556_sm_knob unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 		</override>
@@ -383,9 +383,8 @@
 	
 	<!-- SHARED -->
 	
-	<WeaponMod id="wpn_fps_ass_stoy_556_ro_a2"        based_on="wpn_fps_snp_tti_body_receiverlower" type="sight_rear"      unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_ro_a2" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_stoy_556_ro_a2"        based_on="wpn_fps_snp_tti_body_receiverlower" type="sight_rear"      unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_ro_a2" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
 		<override/>
-		<pcs/>
 	</WeaponMod>
 	
 	<!-- MAGAZINE-->
