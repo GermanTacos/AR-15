@@ -258,13 +258,9 @@ end
 --------------------------------------------
 
 --- Barrels ---
-for id, ba_id in pairs(all_ar15barrel) do
-	self:arpack_check_override( "part", ba_id )
-end
+
 --- Handguard ---
-for id, hg_id in pairs(all_ar15handguard) do
-	self:arpack_check_override( "part", hg_id )
-end
+
 --FL overrides--
 self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override.wpn_fps_addon_ris = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
 for i, fl_id in pairs(all_ar15fl) do

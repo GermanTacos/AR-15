@@ -62,6 +62,7 @@
 			<value_node value="wpn_fps_ass_stoy_556_ba_m4_short"/>
 			<value_node value="wpn_fps_ass_stoy_556_ba_m733"/>
 		</forbids>
+		<override/>
 		<pcs/>
 	</WeaponMod>
 	
@@ -98,6 +99,7 @@
 			<value_node value="wpn_fps_ass_stoy_556_ba_m4_short"/>
 			<value_node value="wpn_fps_ass_stoy_556_ba_m733"/>
 		</forbids>
+		<override/>
 	</WeaponMod>
 
 	<WeaponMod id="wpn_fps_ass_stoy_556_pg_m16"      based_on="wpn_fps_snp_tti_body_receiverlower" type="grip"            unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16_pts/wpn_fps_ass_stoy_556_pg_m16"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
@@ -197,6 +199,7 @@
 			<value_node value="wpn_fps_ass_stoy_556_ba_m4_short"/>
 			<value_node value="wpn_fps_ass_stoy_556_ba_m733"/>
 		</forbids>
+		<override/>
 		<pcs/>
 	</WeaponMod>
 	
@@ -279,6 +282,7 @@
 			<value_node value="wpn_fps_ass_stoy_556_gt_m4"/>
 		</adds>
 		<forbids/>
+		<override/>
 		<pcs/>
 	</WeaponMod>
 	
@@ -343,6 +347,8 @@
 		<adds>
 			<value_node value="wpn_fps_ass_stoy_556_gt_m4"/>
 		</adds>
+		<forbids/>
+		<override/>
 		<pcs/>
 	</WeaponMod>
 	
@@ -372,6 +378,8 @@
 			<value_node value="wpn_fps_ass_stoy_556_gt_m4"/>
 			<value_node value="wpn_fps_ass_stoy_556_hgc_m4a1"/>
 		</adds>
+		<forbids/>
+		<override/>
 		<pcs/>
 	</WeaponMod>
 	
