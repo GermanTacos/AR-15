@@ -389,14 +389,18 @@
 	
 	<!-- MAGAZINE-->
 	
-	<WeaponMod id="wpn_fps_ass_stoy_556_m_steel_20"  based_on="wpn_fps_snp_tti_m_standard"         type="magazine"        unit="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_steel_20" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	<WeaponMod id="wpn_fps_ass_stoy_556_m_steel_20"  based_on="wpn_fps_snp_tti_m_standard"         type="magazine"        unit="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_steel_20" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
+		<bullet_objects amount="10" prefix="g_bullet_" />
+	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_m_cross_20"  based_on="wpn_fps_snp_tti_m_standard"         type="magazine"        unit="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_cross_20" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<bullet_objects amount="10" prefix="g_bullet_" />
 		<pcs/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_m_steel_30"  based_on="wpn_fps_snp_tti_m_standard"         type="magazine"        unit="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_steel_30" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats extra_ammo="5" concealment="-2"/>
+		<bullet_objects amount="5" prefix="g_bullet_" />
 		<pcs/>
 	</WeaponMod>
 	
