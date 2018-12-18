@@ -90,7 +90,7 @@
 	"bm_wp_wpn_fps_ass_stoy_556_st_m4"       : "CAR-15 Stock",
 	
 	"bm_wp_wpn_fps_ass_stoy_556_lr_m4a1"     : "M4A1 Lower Receiver",
-	"bm_wp_wpn_fps_ass_stoy_556_hg_m4a1"     : "M4A1 Handguard",
+	"bm_wp_wpn_fps_ass_stoy_556_hg_m4a1"     : "KAC RIS Handguard",
 	"bm_wp_wpn_fps_ass_stoy_556_st_m4a1"     : "M4A1 Stock",
 	"bm_wp_wpn_fps_ass_stoy_556_ba_m4a1"     : "M4A1 Barrel",
 	"bm_wp_wpn_fps_ass_stoy_556_md_m4a1"     : "M4A1 Flash Hider",
