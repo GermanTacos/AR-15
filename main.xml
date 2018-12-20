@@ -387,6 +387,14 @@
 		<override/>
 	</WeaponMod>
 	
+	<WeaponMod id="wpn_fps_ass_stoy_556_fo_troy"      based_on="wpn_fps_snp_tti_body_receiverlower" type="sight_front"     unit="units/mods/weapons/wpn_fps_ass_stoy_556_troy_pts/wpn_fps_ass_stoy_556_fo_troy"   texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
+		<forbids>
+			<value_node value="wpn_fps_ass_stoy_556_gb_ar15"/>
+			<value_node value="wpn_fps_ass_stoy_556_gb_m16a1"/>
+			<value_node value="wpn_fps_ass_stoy_556_gb_m16a4"/>
+		</forbids>
+	</WeaponMod>
+	
 	<!-- MAGAZINE-->
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_m_steel_20"  based_on="wpn_fps_snp_tti_m_standard"         type="magazine"        unit="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_steel_20" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
@@ -1262,6 +1270,16 @@
 		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_ro_a2"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_ro_a2"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_ro_a2_thq"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_troy_pts/troy_sight_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_troy_pts/troy_sight_nm"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_troy_pts/wpn_fps_ass_stoy_556_fo_troy"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_troy_pts/wpn_fps_ass_stoy_556_fo_troy"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_troy_pts/wpn_fps_ass_stoy_556_fo_troy"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_troy_pts/wpn_fps_ass_stoy_556_fo_troy"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_troy_pts/wpn_fps_ass_stoy_556_fo_troy"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_troy_pts/wpn_fps_ass_stoy_556_fo_troy_thq"/>
 		
 		<!-- UNIT PTS -->
 		
