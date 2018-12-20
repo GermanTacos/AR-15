@@ -1292,6 +1292,8 @@
 		
 		<!-- ICONS -->
 		
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_so_pr"/>
+		
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/stoy_556"/>
 		
 	</AddFiles>
