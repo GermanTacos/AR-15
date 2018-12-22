@@ -132,6 +132,11 @@ local all_ar15handguard = {
 	"wpn_fps_ass_stoy_556_hg_m4",
 	"wpn_fps_ass_stoy_556_hg_m4a1"
 }
+local long_ar15handguard = {
+	"wpn_fps_ass_stoy_556_hg_ar15",
+	"wpn_fps_ass_stoy_556_hg_m16",
+	"wpn_fps_ass_stoy_556_hg_m16a2"
+}
 
 --- Barrel ---
 -- Default length --
@@ -306,6 +311,12 @@ for i, fl_id in pairs(all_ar15fl) do
 	table.insert(self.parts.wpn_fps_ass_stoy_556_hg_ar15.forbids, fl_id)
 	table.insert(self.parts.wpn_fps_ass_stoy_556_hg_m607.forbids, fl_id)
 end
+
+for i, hg_id in pairs(long_ar15handguard) do
+	table.insert(self.parts.wpn_fps_ass_stoy_556_ba_car15.forbids, hg_id)
+	table.insert(self.parts.wpn_fps_ass_stoy_556_ba_m733.forbids, hg_id)
+end
+
 ------------------------------------------
 ----<A><R><1><5> -Stance- <A><R><1><5>----
 ------------------------------------------
