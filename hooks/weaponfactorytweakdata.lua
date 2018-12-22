@@ -324,10 +324,10 @@ end
 --- Vanilla sights ---
 -- non-acoc, default sights --
 for i, o_id in pairs(nonacog_arsight) do
-	self.parts[o_id].stance_mod.wpn_fps_ass_stoy_556 = {translation = Vector3(0, 7, -5.05)}
+	self.parts[o_id].stance_mod.wpn_fps_ass_stoy_556 = {translation = Vector3(0, 7, -5.15)}
 end
 -- other sights --
-self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_stoy_556 			  = {translation = Vector3(0, 5, -5.05)}
+self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_stoy_556 			  = {translation = Vector3(0, 5, -5.15)}
 self.parts.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_ass_stoy_556 		   	  = deep_clone(self.parts.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_ass_flint)
 self.parts.wpn_fps_upg_o_xpsg33_magnifier.stance_mod.wpn_fps_ass_stoy_556 = deep_clone(self.parts.wpn_fps_upg_o_xpsg33_magnifier.stance_mod.wpn_fps_ass_flint)
 self.parts.wpn_fps_upg_o_45rds_v2.stance_mod.wpn_fps_ass_stoy_556 		  = deep_clone(self.parts.wpn_fps_upg_o_45rds_v2.stance_mod.wpn_fps_ass_flint)

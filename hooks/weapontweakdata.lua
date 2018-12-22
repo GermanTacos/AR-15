@@ -26,7 +26,7 @@ if ( self.stoy_556 ) then
 	self:SetupAttachmentPoint("stoy_556", {
 		name = "a_o", 
         base_a_obj = "a_o", 
-        position = Vector3( 0, -1.5, 3.9 ),
+        position = Vector3( 0, -1.5, 3.8 ),
         rotation = Rotation( 0, 0, 0 ) 
 	})
 	self:SetupAttachmentPoint("stoy_556", {
