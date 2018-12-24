@@ -324,7 +324,6 @@ end
 --- Handguard ---
 
 --FL overrides--
-self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override.wpn_fps_addon_ris = {unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}
 if not self.parts.wpn_fps_ass_stoy_556_lrc_m4a1 then
 	for i, fl_id in pairs(all_ar15fl) do
 		if fl_id ~= "wpn_fps_addon_ris" then

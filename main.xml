@@ -378,7 +378,9 @@
 			<value_node value="wpn_fps_ass_stoy_556_hgc_m4a1"/>
 		</adds>
 		<forbids/>
-		<override/>
+		<override>
+			<wpn_fps_addon_ris unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+		</override>
 		<pcs/>
 	</WeaponMod>
 	
