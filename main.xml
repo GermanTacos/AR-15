@@ -4,7 +4,7 @@
 	
 	<GlobalValue id="stoy_556" color="Color(0.8, 0.2, 0.8)"/>
 	
-	<!--	<AssetUpdates id="???" version="1.0" provider="modworkshop"/> -->
+	<AssetUpdates id="24169" version="1.0" provider="modworkshop"/>
 	
 	<!-- DUMMY -->
 	
@@ -1275,6 +1275,7 @@
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_m4"/>
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_m4a1"/>
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_m16a2"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_m607"/>
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_lr_m4"/>
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_lr_m4a1"/>
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_lr_m16a1"/>
