@@ -247,6 +247,7 @@
 		<adds>
 			<value_node value="wpn_fps_ass_stoy_556_ro_m16a3"/>
 		</adds>
+		<forbids/>
 		<override/>
 		<pcs/>
 	</WeaponMod>
