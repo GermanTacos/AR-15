@@ -256,6 +256,10 @@ if BeardLib.Utils:FindMod("M82 Muzzle Brake") then
 	table.insert(all_ar15ext, "wpn_fps_upg_ns_m82")
 	table.insert(all_ar15ext, "wpn_fps_upg_ns_aw50")
 end
+if BeardLib.Utils:FindMod("Thermal Scope") then
+	table.insert(all_ar15sight, "wpn_fps_upg_o_thersig")
+	table.insert(nonacog_arsight, "wpn_fps_upg_o_thersig")
+end
 
 
 --------------------------------------------
@@ -295,7 +299,7 @@ for i, o_id in pairs(all_ar15sight) do
 	self.parts.wpn_fps_ass_stoy_556_ur_m16a3.override[o_id] = {a_obj="a_o_lower", stance_mod={wpn_fps_ass_stoy_556 = {translation = Vector3(0, 5, -0.65)}}}
 	self.parts.wpn_fps_ass_stoy_556_ca_m16a3.override.wpn_fps_ass_stoy_556_ur_m16a3 = {override = {o_id = {}}}
 	self.parts.wpn_fps_ass_stoy_556_ur_m16a4.override[o_id] = {a_obj="a_o_lower", stance_mod={wpn_fps_ass_stoy_556 = {translation = Vector3(0, 5, -0.65)}}}
-	self.parts.wpn_fps_ass_stoy_556_ur_m16a4.override.wpn_fps_ass_stoy_556_ur_m16a3 = {override = {o_id = {}}}
+	self.parts.wpn_fps_ass_stoy_556_ca_m16a3.override.wpn_fps_ass_stoy_556_ur_m16a4 = {override = {o_id = {}}}
 end
 ----------------------------------------
 ----<A><R><1><5> -Adds- <A><R><1><5>----
