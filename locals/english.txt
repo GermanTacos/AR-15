@@ -1,6 +1,6 @@
 {
 	"bm_w_stoy_556" : "AR-15",
-	"bm_w_stoy_556_desc" : "AR15DESC",
+	"bm_w_stoy_556_desc" : "The ArmaLite AR-15 is a select-fire, air-cooled, gas-operated, magazine-fed assault rifle manufactured in the United States between 1959 and 1964, and adopted by the United States Armed Forces as the M16 rifle.",
 	
 	"menu_l_global_value_stoy_556" : "This is an AR Pack Weapon!",
 	
