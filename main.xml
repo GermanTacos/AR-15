@@ -1259,7 +1259,44 @@
 		
 		<!-- ICONS -->
 		
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ba_car15"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ba_m4"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ba_m4_short"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ba_m16a1"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ba_m16a2"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ba_m733"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_bo_m16a1"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ca_m16a3"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_gb_m16a1"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_gb_m16a4"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_ar15"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_m4"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_m4a1"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_m16a2"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_lr_m4"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_lr_m4a1"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_lr_m16a1"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_lr_m16a2"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_lr_m16a3"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_lr_m16a4"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_m_cross_20"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_m_steel_30"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_md_ar15"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_md_car15"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_md_m16a1"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_md_m16a2"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_pg_ar15"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_pg_m16a2"/>
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_so_pr"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_st_ar15"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_st_m4"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_st_m4a1"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_st_m16a2"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_st_m607"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ur_m16a1"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ur_m16a2"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ur_m16a3"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ur_m16a4"/>
 		
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/stoy_556"/>
 		
