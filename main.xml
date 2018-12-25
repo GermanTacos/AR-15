@@ -128,6 +128,7 @@
 	<!-- M16A1 -->
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ba_m16a1"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a1_pts/wpn_fps_ass_stoy_556_ba_m16a1" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats recoil="-2" spread="1"/>
 		<override>
 			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a1_pts/wpn_fps_ass_stoy_556_md_m16a1"/>
 		</override>
@@ -176,6 +177,7 @@
 	<!-- M16A2 -->
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ba_m16a2"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_ba_m16a2" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats recoil="1" concealment="-1"/>
 		<override>
 			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_md_m16a2"/>
 		</override>
@@ -223,6 +225,7 @@
 	<WeaponMod id="wpn_fps_ass_stoy_556_gt_m16a2"     based_on="wpn_fps_snp_tti_body_receiverlower" type="gas_tube"        unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_gt_m16a2" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_pg_m16a2"     based_on="wpn_fps_snp_tti_body_receiverlower" type="grip"            unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_pg_m16a2" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats concealment="-1" recoil="1"/>
 		<pcs/>
 	</WeaponMod>
 	
@@ -294,12 +297,14 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_gb_m16a4"     based_on="wpn_fps_snp_tti_body_receiverlower" type="gas_block"       unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a4_pts/wpn_fps_ass_stoy_556_gb_m16a4" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats concealment="1"/>
 		<pcs/>
 	</WeaponMod>
 	
 	<!-- M607 -->
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_hg_m607"     based_on="wpn_fps_snp_tti_body_receiverlower" type="handguard"       unit="units/mods/weapons/wpn_fps_ass_stoy_556_m607_pts/wpn_fps_ass_stoy_556_hg_m607" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats recoil="-1" concealment="2"/>
 		<adds>
 			<value_node value="wpn_fps_ass_stoy_556_gt_m4"/>
 		</adds>
@@ -315,6 +320,7 @@
 	<!-- M733 -->
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ba_m733"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_ass_stoy_556_m733_pts/wpn_fps_ass_stoy_556_ba_m733" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats recoil="-4" spread="-1" concealment="4"/>
 		<override>
 			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_md_m16a2" a_obj="a_ns_m733"/>
 		</override>
@@ -327,6 +333,7 @@
 	<!-- CAR-15 -->
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ba_car15"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_ba_car15" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats recoil="-5" concealment="5"/>
 		<override>
 			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_car15_pts/wpn_fps_ass_stoy_556_md_car15" a_obj="a_ns_car15"/>
 		</override>
@@ -343,6 +350,7 @@
 	<!-- M4 -->
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_ba_m4"     based_on="wpn_fps_snp_tti_b_standard"         type="barrel"          unit="units/mods/weapons/wpn_fps_ass_stoy_556_m4_pts/wpn_fps_ass_stoy_556_ba_m4" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats spread="-2" concealment="2"/>
 		<override>
 			<wpn_fps_ass_stoy_556_md_dummy unit="units/mods/weapons/wpn_fps_ass_stoy_556_m16a2_pts/wpn_fps_ass_stoy_556_md_m16a2" a_obj="a_ns_m4"/>
 		</override>
@@ -362,6 +370,7 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_hg_m4"     based_on="wpn_fps_snp_tti_body_receiverlower" type="handguard"       unit="units/mods/weapons/wpn_fps_ass_stoy_556_m4_pts/wpn_fps_ass_stoy_556_hg_m4" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats recoil="-1" concealment="2"/>
 		<adds>
 			<value_node value="wpn_fps_ass_stoy_556_gt_m4"/>
 		</adds>
@@ -388,6 +397,7 @@
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_hg_m4a1"     based_on="wpn_fps_snp_tti_body_receiverlower" type="handguard"       unit="units/mods/weapons/wpn_fps_ass_stoy_556_m4a1_pts/wpn_fps_ass_stoy_556_hg_m4a1" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats concealment="1"/>
 		<adds>
 			<value_node value="wpn_fps_ass_stoy_556_gt_m4"/>
 			<value_node value="wpn_fps_ass_stoy_556_hgc_m4a1"/>
