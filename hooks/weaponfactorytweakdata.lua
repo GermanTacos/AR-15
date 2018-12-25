@@ -348,11 +348,10 @@ end
 --- Lowers/Carry Handle ---
 --O override--
 for i, o_id in pairs(all_ar15sight) do
-	self.parts.wpn_fps_ass_stoy_556_ur_m16a3.override[o_id] = {a_obj="a_o_lower", stance_mod={wpn_fps_ass_stoy_556 = {translation = Vector3(0, 5, -0.65)}}}
-	self.parts.wpn_fps_ass_stoy_556_ca_m16a3.override.wpn_fps_ass_stoy_556_ur_m16a3 = {override = {o_id = {}}}
-	self.parts.wpn_fps_ass_stoy_556_ur_m16a4.override[o_id] = {a_obj="a_o_lower", stance_mod={wpn_fps_ass_stoy_556 = {translation = Vector3(0, 5, -0.65)}}}
-	self.parts.wpn_fps_ass_stoy_556_ca_m16a3.override.wpn_fps_ass_stoy_556_ur_m16a4 = {override = {o_id = {}}}
+	self.parts.wpn_fps_ass_stoy_556_ur_m16a3.override[o_id] = {a_obj="a_o_lower"}
+	self.parts.wpn_fps_ass_stoy_556_ur_m16a4.override[o_id] = {a_obj="a_o_lower"}
 end
+self.parts.wpn_fps_ass_stoy_556_ca_m16a3.override.wpn_fps_ass_stoy_556_stance_a3 = {stance_mod = {wpn_fps_ass_stoy_556 = {translation = Vector3(0, 0, 0)}}}
 ----------------------------------------
 ----<A><R><1><5> -Adds- <A><R><1><5>----
 ----------------------------------------
