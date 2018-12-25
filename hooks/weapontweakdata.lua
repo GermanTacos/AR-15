@@ -49,6 +49,18 @@ if ( self.stoy_556 ) then
         position = Vector3( 0, -12.75, 0 ),
         rotation = Rotation( 0, 0, 0 ) 
 	})
+	self:SetupAttachmentPoint("stoy_556", {
+		name = "a_troy_a4gb", 
+        base_a_obj = "a_body", 
+        position = Vector3( 0, 12, 0 ),
+        rotation = Rotation( 0, 0, 0 ) 
+	})
+	self:SetupAttachmentPoint("stoy_556", {
+		name = "a_troy_a4gb_car15", 
+        base_a_obj = "a_body", 
+        position = Vector3( 0, -0.75, 0 ),
+        rotation = Rotation( 0, 0, 0 ) 
+	})
 --- MDs ---
 	self:SetupAttachmentPoint("stoy_556", {
 		name = "a_ns_m4", 
