@@ -1231,6 +1231,7 @@
 		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_cross_20_thq"/>
 		
 		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/steel_20_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/steel_20_cc"/>
 		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/steel_20_nm"/>
 		
 		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_steel_20"/>
@@ -1239,6 +1240,8 @@
 		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_steel_20"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_steel_20"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_steel_20_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_steel_20_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_steel_20_cc_thq"/>
 		
 		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/steel_30_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/steel_30_nm"/>
